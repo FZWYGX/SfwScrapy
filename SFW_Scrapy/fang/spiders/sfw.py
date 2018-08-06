@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import scrapy
 import re
-from SfwScrapy.SFW_Scrapy.fang.items import NewHouseItem, ESFHouseItem
+from ..items import NewHouseItem, ESFHouseItem
 from traceback import format_exc
 from scrapy_redis.spiders import RedisSpider
 
