@@ -26,8 +26,8 @@ ROBOTSTXT_OBEY = False
 # Configure a delay for requests for the same website (default: 0)
 # See https://doc.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-DOWNLOAD_DELAY = 1
 
+# DOWNLOAD_DELAY = 1
 DOWNLOAD_TIMEOUT = 10  # 设置超时时间
 RETRY_ENABLED = True  # 设置开启重试
 RETRY_TIMES = 3  # 设置重试次数

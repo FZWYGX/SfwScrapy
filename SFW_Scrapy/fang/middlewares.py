@@ -20,7 +20,7 @@ class UAMiddleware(object):
     def process_request(self, request, spider):
         self.lock.acquire()
         if self.is_expiring:
-            ua = random.choices(self.UA_List)
+            ua = random.choice(self.UA_List)
             request.headers['User-Agent'] = ua
             print(request.headers['User-Agent'])
         self.lock.release()

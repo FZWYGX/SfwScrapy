@@ -8,6 +8,6 @@ mongoexport -h ip和端口 -d 库名 -c 表名 -f 字段名 --type=csv -o ./文�
 
 结果：
 
-百度云盘：链接：https://pan.baidu.com/s/1KdGwSNpPjjPqJy4KFT098Q 密码：dv98
+百度云盘：链接：https://pan.baidu.com/s/1sZJFSXsBm9iWs9x0y_rxdg 密码：h2ut
 
-启动文件：start.py
+项目启动文件：start.py
