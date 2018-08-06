@@ -12,6 +12,9 @@ mongoexport -h ip和端口 -d 库名 -c 表名 -f 字段名 --type=csv -o ./文�
 
 项目启动文件：start.py
 
+```
 Master端：
 
 redis-cli > lpush sfwSpider:start_urls http://www.fang.com/SoufunFamily.htm
+
+```
