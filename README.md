@@ -11,3 +11,7 @@ mongoexport -h ip和端口 -d 库名 -c 表名 -f 字段名 --type=csv -o ./文�
 百度云盘：链接：https://pan.baidu.com/s/1sZJFSXsBm9iWs9x0y_rxdg 密码：h2ut
 
 项目启动文件：start.py
+
+Master端：
+
+redis-cli > lpush sfwSpider:start_urls http://www.fang.com/SoufunFamily.htm
